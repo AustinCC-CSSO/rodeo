@@ -248,7 +248,7 @@
 	}
 
 	button {
-		color: var(--highlight-color);
+		color: #e1563f;
 		text-decoration: none;
 		line-height: 1.5;
 		padding-left: 1rem;
@@ -258,9 +258,7 @@
 	a:hover,
 	button:hover {
 		text-decoration-line: underline;
-		text-decoration-style: solid;
-		text-decoration-color: var(--secondary-color);
-		/* background-color: var(--secondary-color); */
+		text-decoration-color: var(--primary-accent);
 		color: var(--primary-accent);
 	}
 
@@ -289,6 +287,7 @@
 	}
 
 	button {
+		background-color: var(--secondary-color);
 		text-transform: uppercase;
 		font-family: 'Geologica', sans-serif;
 		font-weight: 700;
@@ -347,8 +346,7 @@
 
 	menu a:hover,
 	button:hover {
-		background-color: var(--secondary-color);
-		color: var(--background-color);
+		background-color: #303030;
 	}
 
 	.active {

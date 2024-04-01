@@ -8,7 +8,6 @@
 <svelte:head>
 	<title>RiverHacks | Admissions</title>
 </svelte:head>
-
 <div class="main-content">
 	{#if data.user === null}
 		<p>Congratulations! You've read every application.</p>
@@ -35,15 +34,14 @@
 
 	#padding {
 		height: 1rem;
-
-		background-color: var(--secondary-background-color);
+		background: linear-gradient(transparent, white);
 	}
 
 	form {
 		flex-direction: row;
 		justify-content: space-between;
 		gap: 1rem;
-		background: var(--secondary-background-color);
+		background: white;
 		padding-bottom: 1rem;
 	}
 

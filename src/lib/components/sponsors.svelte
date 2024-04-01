@@ -3,6 +3,7 @@
 </script>
 
 <div class="main-container">
+	<img class="background-grid" src="/Grid.png" alt="Grid Background" />
 	<div class="content-container">
 		<h1>Sponsors</h1>
 		<p>
@@ -40,6 +41,7 @@
 
 	.main-container {
 		position: relative;
+		background-color: #1c1c1c;
 		overflow: hidden;
 	}
 

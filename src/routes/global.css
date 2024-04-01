@@ -11,7 +11,7 @@ html {
 	--font-family: 'Geologica', 'Helvetica Neue', 'Arial', sans-serif;
 	--font-size: 16px;
 	--highlight-color: #f4faed;
-	--secondary-color: #b1f067;
+	--secondary-color: #3f81e4;
 	--background-color: #180612;
 	--secondary-background-color: #39323b;
 	--primary-accent: #e43f3f;
@@ -51,7 +51,6 @@ body {
 	font-size: var(--font-size);
 	margin: 0 auto;
 	overflow-wrap: anywhere;
-	background-color: var(--background-color);
 }
 
 nav {
@@ -62,16 +61,14 @@ button {
 	font-family: var(--font-family);
 	height: 2.5rem;
 	font-size: var(--font-size);
-	color: var(--highlight-color);
-	background-color: var(--primary-accent);
+	color: var(--primary-accent);
+	background-color: var(--secondary-color);
 	border: none;
 	transition: all 0.1s ease-in-out;
 }
 
 button:not(:disabled):hover {
 	cursor: pointer;
-	background-color: var(--secondary-color);
-	color: var(--background-color);
 	opacity: 90%;
 }
 
@@ -170,12 +167,12 @@ td {
 
 pre {
 	overflow: auto;
-	background-color: var(--secondary-background-color);
+	background-color: #eee;
 	padding: 0.5rem 1rem;
 }
 
 code {
-	background-color: var(--secondary-background-color);
+	background-color: #eee;
 }
 
 blockquote {
@@ -206,9 +203,8 @@ dialog button {
 	min-height: calc(100vh - (159px + 60px));
 	max-width: 50rem;
 	margin: 0 auto;
+	margin-top: 60px;
 	padding: 0 1rem;
-	background-color: var(--secondary-background-color);
-	color: var(--highlight-color);
 }
 
 @media (max-width: 450px) {

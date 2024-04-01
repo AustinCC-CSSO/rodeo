@@ -67,6 +67,12 @@
 		margin: auto;
 	}
 
+	.checkered-background {
+		background-color: #303030;
+		background-image: url('/Checkered Background.svg');
+		background-size: cover;
+	}
+
 	.bordered-text {
 		font-family: 'Zen Dots';
 		font-style: normal;

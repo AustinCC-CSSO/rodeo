@@ -39,7 +39,7 @@
 
 <style>
 	blockquote {
-		background: var(--background-color);
+		background: #eee;
 		padding: 0.5rem;
 		border-left: none;
 		border-left: #aaa 5px solid;
